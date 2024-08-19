@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Reynolds Fan Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .bio, .movies {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .bio img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 8px;
+            max-width: 300px;
+        }
+        .movies h2 {
+            margin-top: 0;
+        }
+        .movies ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .movies li {
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+        }
+        .movies li img {
+            max-width: 50px;
+            margin-right: 15px;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ryan Reynolds Fan Page</h1>
+</header>
+
+<nav>
+    <a href="#bio">Biography</a>
+    <a href="#movies">Movies</a>
+    <a href="#footer">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="bio" class="bio">
+        <h2>About Ryan Reynolds</h2>
+        <img src="https://via.placeholder.com/300x400" alt="Ryan Reynolds">
+        <p>Ryan Reynolds is a Canadian actor and producer. He is best known for his roles in Deadpool, Green Lantern, and many other popular films. Reynolds was born on October 23, 1976, in Vancouver, British Columbia. He began his acting career in the early 1990s and has since become one of Hollywood's most beloved actors.</p>
+        <p>Known for his sharp wit and charming personality, Ryan Reynolds has captivated audiences worldwide. Beyond his acting career, he is also known for his philanthropic efforts and business ventures.</p>
+    </section>
+
+    <section id="movies" class="movies">
+        <h2>Top Movies</h2>
+        <ul>
+            <li>
+                <img src="https://via.placeholder.com/50x75" alt="Deadpool">
+                <strong>Deadpool (2016)</strong> - A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/50x75" alt="The Proposal">
+                <strong>The Proposal (2009)</strong> - A pushy boss forces her young assistant to marry her in order to keep her visa status in the U.S. and avoid deportation to Canada.
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/50x75" alt="Green Lantern">
+                <strong>Green Lantern (2011)</strong> - A test pilot is granted an alien ring that bestows him with otherworldly powers, as well as membership into an intergalactic peacekeeping force.
+            </li>
+            <!-- Add more movies as needed -->
+        </ul>
+    </section>
+</div>
+
+<footer id="footer">
+    <p>&copy; 2024 Ryan Reynolds Fan Page. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
